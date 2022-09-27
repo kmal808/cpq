@@ -5,6 +5,10 @@ import casementPic from '../public/casment.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 
+useEffect(() => {
+	themeChange(false)
+}, [])
+
 const Home = () => {
 	return (
 		<div>
