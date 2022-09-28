@@ -5,7 +5,7 @@ import singleHungPic from '../public/single-hung-black.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 
-const Type = () => {
+const SeriesHinged = () => {
 	useEffect(() => {
 		themeChange(false)
 	}, [])
@@ -20,10 +20,10 @@ const Type = () => {
 						<Image src={casementBlackPic} alt='casement window' />
 					</figure>
 					<div className='card-body'>
-						<h2 className='card-title'>Hinged Windows</h2>
-						<p>Casement and Awning</p>
+						<h2 className='card-title'>Casement Windows</h2>
+						<p>Hinged type casement</p>
 						<div className='card-actions justify-end'>
-							<a href='/serieshinged'>
+							<a href='/seriesawning'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
 						</div>
@@ -35,10 +35,10 @@ const Type = () => {
 						<Image src={singleHungPic} alt='hung window' />
 					</figure>
 					<div className='card-body'>
-						<h2 className='card-title'>Sliding Windows</h2>
-						<p>Slider and Hung</p>
+						<h2 className='card-title'>Awning Windows</h2>
+						<p>Hinged top awning</p>
 						<div className='card-actions justify-end'>
-							<a href='/seriesslider'>
+							<a href='/seriescasement'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
 						</div>
@@ -59,11 +59,8 @@ const Type = () => {
 				</div>
 				🌚
 			</div>
-			<a href='/'>
-				<button className='btn btn-primary'>Go Back</button>
-			</a>
 		</div>
 	)
 }
 
-export default Type
+export default SeriesHinged
