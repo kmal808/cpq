@@ -5,10 +5,6 @@ import casementPic from '../public/casment.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 
-useEffect(() => {
-	themeChange(false)
-}, [])
-
 const Home = () => {
 	return (
 		<div>
@@ -32,6 +28,21 @@ const Home = () => {
 							<button className='btn btn-primary'>Configure Now</button>
 						</a>
 					</div>
+				</div>
+				<div className='m-5'>
+					<h2 className='mb-4 text-2xl font-bold'>Toggle</h2>
+					🌞
+					<div className='inline-block w-10'>
+						<span
+							data-toggle-theme='business'
+							data-act-class='pl-4'
+							className='border rounded-full  flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-
+							0'
+						>
+							<span className='rounded-full w-3 h-3 m-1'></span>
+						</span>
+					</div>
+					🌚
 				</div>
 			</div>
 		</div>
