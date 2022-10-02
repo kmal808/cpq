@@ -20,16 +20,20 @@ const Home = () => {
 				/>
 				<link rel='icon' href='/fav.png' />
 			</Head>
+			<div className='text-slate-200'>
+				<h1>Winodows Hawaii | Configure, Price, Quote</h1>
+				<h4>Select Product</h4>
+			</div>
 			<div className='card w-96 dark:shadow-slate-200 shadow-slate-600 bg-base-100 shadow-xl mx-auto'>
 				<figure>
 					<Image src={casementPic} alt='casement window' className='bg-white' />
 				</figure>
 				<div className='card-body'>
 					<h2 className='card-title'>Windows</h2>
-					<p>Vinyl Windows</p>
+					<p>Ali'i Extreme Windows</p>
 					<div className='card-actions justify-end'>
 						<a href='/type'>
-							<button className='btn btn-primary'>Configure Now</button>
+							<button className='btn btn-primary'>Configure Windows</button>
 						</a>
 					</div>
 				</div>
