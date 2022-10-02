@@ -12,7 +12,7 @@ const SeriesHinged = () => {
 
 	return (
 		<div className='container mx-auto px-4'>
-			<h1>Type</h1>
+			<h1>Type: Hinged</h1>
 			<h4>Select Your Window Type</h4>
 			<div className='flex w-full'>
 				<div className='card w-96 dark:shadow-slate-200 shadow-slate-600 bg-base-100 shadow-xl mx-auto'>
