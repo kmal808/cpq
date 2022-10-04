@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Nav from './components/Nav'
 import casementBlackPic from '../public/casement-black.jpeg'
 import singleHungPic from '../public/single-hung-black.jpeg'
 import { useEffect } from 'react'
@@ -12,8 +13,11 @@ const SeriesHinged = () => {
 
 	return (
 		<div className='container mx-auto px-4'>
-			<h1>Type: Hinged</h1>
-			<h4>Select Your Window Type</h4>
+			<Nav />
+			<div className='px-4'>
+				<h1>Type: Hinged</h1>
+				<h4>Select Your Window Type</h4>
+			</div>
 			<div className='flex w-full'>
 				<div className='card w-96 dark:shadow-slate-200 shadow-slate-600 bg-base-100 shadow-xl mx-auto'>
 					<figure>
@@ -23,7 +27,7 @@ const SeriesHinged = () => {
 						<h2 className='card-title'>Casement Windows</h2>
 						<p>Hinged type casement</p>
 						<div className='card-actions justify-end'>
-							<a href='/seriesawning'>
+							<a href='/seriescasement'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
 						</div>
@@ -38,7 +42,7 @@ const SeriesHinged = () => {
 						<h2 className='card-title'>Awning Windows</h2>
 						<p>Hinged top awning</p>
 						<div className='card-actions justify-end'>
-							<a href='/seriescasement'>
+							<a href='/seriesawning'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
 						</div>
