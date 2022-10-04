@@ -2,8 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root {
+/* :root {
   --data-theme: 'corporate'
 }
 
@@ -11,6 +10,4 @@
   :root {
     --data-theme: 'business'
   }
-}
-
-
+} */
