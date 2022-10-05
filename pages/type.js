@@ -15,7 +15,7 @@ const Type = () => {
 	return (
 		<div className='container mx-auto px-4'>
 			<Nav />
-			<div className='flex w-full h-full'>
+			<div className='flex w-full'>
 				<div>
 					<h1>Type</h1>
 					<h4>Select Your Window Type</h4>
@@ -27,7 +27,7 @@ const Type = () => {
 					<div className='card-body'>
 						<h2 className='card-title'>Hinged Windows</h2>
 						<p>Casement and Awning</p>
-						<div className='card-actions justify-end'>
+						<div className='card-actions'>
 							<a href='/serieshinged'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
@@ -42,14 +42,14 @@ const Type = () => {
 					<div className='card-body'>
 						<h2 className='card-title'>Sliding Windows</h2>
 						<p>Slider and Hung</p>
-						<div className='card-actions justify-end'>
+						<div className='card-actions'>
 							<a href='/seriesslider'>
 								<button className='btn btn-primary'>Configure Now</button>
 							</a>
 						</div>
 					</div>
 				</div>
-				<a href='/'>
+				<a className='w-full' href='/'>
 					<button className='btn btn-primary'>Go Back</button>
 				</a>
 			</div>

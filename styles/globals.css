@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+<<<<<<< HEAD
+=======
+
+/* :root {
+  --data-theme: 'corporate'
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --data-theme: 'business'
+  }
+} */
+>>>>>>> 4e7eb33dcea82de06132ec01665e8b2121c7f5de
