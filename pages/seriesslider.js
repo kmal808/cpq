@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import casementBlackPic from '../public/casement-black.jpeg'
-import singleHungPic from '../public/single-hung-black.jpeg'
+import xoCombo from '../public/images/xo-combo.png'
+import singleHungPic from '../public/images/single-hung-black.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const SeriesSlider = () => {
 	useEffect(() => {
@@ -13,14 +13,14 @@ const SeriesSlider = () => {
 	}, [])
 
 	return (
-		<div className='container mx-auto px-4'>
+		<div className='container min-h-screen mx-auto px-4'>
 			<Nav />
 			<h1>Operation</h1>
 			<h4>Select Your Window Type</h4>
 			<div className='flex w-full h-full'>
 				<div className='card w-96 shadow-slate-600 bg-base-100 shadow-xl mx-auto'>
 					<figure>
-						<Image src={casementBlackPic} alt='casement window' />
+						<Image src={xoCombo} alt='XO over PW' />
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>Gliders</h2>
