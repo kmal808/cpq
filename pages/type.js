@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import casementBlackPic from '../public/casement-black.jpeg'
-import singleHungPic from '../public/single-hung-black.jpeg'
+import casementBlackPic from '../public/images/casement-black.jpeg'
+import singleHungPic from '../public/images/single-hung-black.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
-import Nav from './components/Nav'
-import Footer from './components/Footer'
+import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const Type = () => {
 	useEffect(() => {
@@ -13,10 +13,10 @@ const Type = () => {
 	}, [])
 
 	return (
-		<div className='container mx-auto px-4'>
+		<div className='container min-h-screen mx-auto px-4'>
 			<Nav />
 			<div className='flex w-full'>
-				<div>
+				<div className='m-auto'>
 					<h1>Type</h1>
 					<h4>Select Your Window Type</h4>
 				</div>

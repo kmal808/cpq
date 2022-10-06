@@ -1,11 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
-import Nav from './components/Nav'
-import casementBlackPic from '../public/casement-black.jpeg'
-import singleHungPic from '../public/single-hung-black.jpeg'
+import Nav from '../components/Nav'
+import casementBlackPic from '../public/images/casement-black.jpeg'
+import singleHungPic from '../public/images/single-hung-black.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
-import Footer from './components/Footer'
+import Footer from '../components/Footer'
 
 const SeriesHinged = () => {
 	useEffect(() => {
@@ -13,7 +13,7 @@ const SeriesHinged = () => {
 	}, [])
 
 	return (
-		<div className='container mx-auto px-4'>
+		<div className='container min-h-screen mx-auto px-4'>
 			<Nav />
 			<div className='m-auto'>
 				<h1>Type: Hinged</h1>
