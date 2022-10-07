@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const Type = () => {
 	useEffect(() => {
@@ -49,11 +50,11 @@ const Type = () => {
 						</div>
 					</div>
 				</div>
-				<a className='w-full' href='/'>
-					<button className='btn btn-primary'>Go Back</button>
-				</a>
 			</div>
 			<Footer />
+			<Link title='back' href='/'>
+				<button className='btn btn-primary'>Go Back</button>
+			</Link>
 		</div>
 	)
 }

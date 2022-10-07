@@ -18,8 +18,7 @@ const Nav = () => {
 						🌞
 						<div className='inline-block w-10'>
 							<span
-								data-toggle-theme='business, corporate
-                '
+								data-toggle-theme='business, corporate'
 								data-act-class='ACTIVECLASS'
 								className='border rounded-full border-slate-300 flex items-center cursor-pointer w-10 transition-all duration-300 ease-in-out pl-0'
 							>
