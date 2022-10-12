@@ -1,4 +1,3 @@
-import React from 'react'
 import Image from 'next/image'
 import xoCombo from '../public/images/xo-combo.png'
 import singleHungPic from '../public/images/single-hung-black.jpeg'
