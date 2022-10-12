@@ -25,11 +25,11 @@ const Home = () => {
 			</Head>
 			<Nav />
 			<div className='container min-h-screen mx-auto px-4'>
-				<div className='text-slate-200 m-auto'>
+				<div className='text-slate-200 text-xl my-4'>
 					<h1>Winodows Hawaii | Configure, Price, Quote</h1>
 					<h4>Select Product</h4>
 				</div>
-				<div className='card w-96 dark:shadow-slate-200 shadow-slate-600 bg-base-100 shadow-xl mx-auto'>
+				<div className='card w-96 shadow-slate-400 bg-base-100 shadow-xl mx-auto'>
 					<figure>
 						<Image
 							src={casementPic}
