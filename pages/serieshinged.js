@@ -6,6 +6,7 @@ import singleHungPic from '../public/images/single-hung-black.jpeg'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const SeriesHinged = () => {
 	useEffect(() => {
@@ -28,9 +29,9 @@ const SeriesHinged = () => {
 						<h2 className='card-title'>Casement Windows</h2>
 						<p>Hinged type casement</p>
 						<div className='card-actions'>
-							<a href='/seriescasement'>
+							<Link href='/seriescasement'>
 								<button className='btn btn-primary'>Configure Now</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -43,9 +44,9 @@ const SeriesHinged = () => {
 						<h2 className='card-title'>Awning Windows</h2>
 						<p>Hinged top awning</p>
 						<div className='card-actions'>
-							<a href='/seriesawning'>
+							<Link href='/seriesawning'>
 								<button className='btn btn-primary'>Configure Now</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

@@ -40,9 +40,9 @@ const Type = () => {
 							<h2 className='card-title'>Hinged Windows</h2>
 							<p>Casement and Awning</p>
 							<div className='card-actions'>
-								<a href='/serieshinged'>
+								<Link Link href='/serieshinged'>
 									<button className='btn btn-primary'>Configure Now</button>
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>
@@ -55,9 +55,9 @@ const Type = () => {
 							<h2 className='card-title'>Sliding Windows</h2>
 							<p>Slider and Hung</p>
 							<div className='card-actions'>
-								<a href='/seriesslider'>
+								<Link href='/seriesslider'>
 									<button className='btn btn-primary'>Configure Now</button>
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

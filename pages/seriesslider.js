@@ -5,6 +5,7 @@ import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const SeriesSlider = () => {
 	useEffect(() => {
@@ -25,9 +26,9 @@ const SeriesSlider = () => {
 						<h2 className='card-title'>Gliders</h2>
 						<p>Horizontal type sliders</p>
 						<div className='card-actions'>
-							<a href='/seriesglider'>
+							<Link href='/seriesglider'>
 								<button className='btn btn-primary'>Configure Now</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
@@ -40,9 +41,9 @@ const SeriesSlider = () => {
 						<h2 className='card-title'>Hung Windows</h2>
 						<p>Up And Down type sliders</p>
 						<div className='card-actions'>
-							<a href='/serieshung'>
+							<Link href='/serieshung'>
 								<button className='btn btn-primary'>Configure Now</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

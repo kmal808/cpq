@@ -6,6 +6,7 @@ import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Link from 'next/link'
 
 const Home = () => {
 	useEffect(() => {
@@ -23,9 +24,9 @@ const Home = () => {
 				/>
 				<link rel='icon' href='/favicon.ico' />
 			</Head>
-			<Nav />
-			<div className='container min-h-screen mx-auto px-4'>
-				<div className='text-slate-200 text-xl my-4'>
+			<div className='container mx-auto px-4'>
+				<Nav />
+				<div className='text-xl my-4'>
 					<h1>Winodows Hawaii | Configure, Price, Quote</h1>
 					<h4 className='flex justify-center'>Select Product</h4>
 				</div>
@@ -39,11 +40,11 @@ const Home = () => {
 					</figure>
 					<div className='card-body'>
 						<h2 className='card-title'>Windows</h2>
-						<p>Ali'i Extreme Windows</p>
+						<p>Ali`i Extreme Windows</p>
 						<div className='card-actions'>
-							<a href='/type'>
+							<Link href='/type'>
 								<button className='btn btn-primary'>Configure Windows</button>
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>

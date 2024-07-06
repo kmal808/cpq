@@ -4,6 +4,7 @@ import { themeChange } from 'theme-change'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
 import { singleHung } from '../public/images/sh.png'
+import Image from 'next/image'
 
 const SeriesHung = () => {
 	useEffect(() => {

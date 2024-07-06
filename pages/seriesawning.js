@@ -2,6 +2,7 @@ import Head from 'next/head'
 import { useEffect } from 'react'
 import { themeChange } from 'theme-change'
 import Nav from '../components/Nav'
+import Footer from '../components/Footer'
 
 const SeriesAwning = () => {
 	useEffect(() => {
